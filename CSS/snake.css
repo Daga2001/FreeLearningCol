@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+canvas{
+    display: none;
+    background: rgb(35,180,235);
+    background: linear-gradient(125deg, rgba(35,180,235,1) 13%, rgba(0,95,255,1) 47%, rgba(39,12,175,1) 89%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/*Instructions*/
+ion-icon{
+    font-size: 20px;
+}
+img.intro-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -12;
+}
+div.intro-screen{
+    position: absolute;
+    background-color: #1eb300de;
+    border-radius: 30px;
+    width: 70%;
+    height: 510px;
+    color:white;
+    top: 8%;
+    left: 14.5%;
+}
+div.intro-screen p.intro-title{
+    position: absolute;
+    color: #FF1919;
+    text-shadow: 0 0 15px black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    left: 0%;
+}
+div.intro-screen p.intro-title-2{
+    position: absolute;
+    color: #FF1919;
+    text-shadow: 0 0 15px black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    width: 100%;
+    top: -30%;
+}
+div.intro-screen p.intro-body{
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 0 0 15px black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 91%;
+    top: 15%;
+    left: 4.5%;
+}
+div.intro-btns{
+    top: 40%;
+    left: 6.5%;
+    width: 50%;
+    position: absolute;
+}
+div.intro-btns div{
+    padding: 10px 0px;
+}
+div.intro-btns p.intro-body-2{
+    display: inline-block;
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 0 0 15px black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 100%;
+}
+img.ins-img-1{
+    position: absolute;
+    width: 345px;
+    height: 200px;
+    border-radius: 20px;
+    top: 35%;
+    left: 50%;
+}
+button.play-btn{
+    position: absolute;
+    padding: 10px 60px;
+    top: 84%;
+    left: 41%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    color: whitesmoke;
+    background-color: #00CC00;
+    border: 10px groove #008000;
+    outline: none;
+    cursor: pointer;
+}
+button.play-btn:hover{
+    background-color: #19FF19;
+    transition: 0.5s;
+}
+a.exit-btn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #00CC00;
+    border: 10px groove #008000;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 7%;
+    cursor: pointer;
+}
+a.exit-btn:hover{
+    background-color: #19FF19;
+    transition: 0.5s;
+}

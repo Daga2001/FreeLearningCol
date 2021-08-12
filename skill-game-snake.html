@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link href="./CSS/snake.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+    <!-- Ionic icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+      <canvas id='myCanvas' width="0" height="0"></canvas>
+      <a href="./skills-games.html" id="exit" class="exit-btn">Salir</a>
+      <img id="background" class= "intro-background" src="./images/snake/snake-background.jpg" />
+      <div id="instructions" class="intro-screen">
+        <p class="intro-title">Instrucciones</p>
+        <p class="intro-body">
+          Mueve a la serpiente y acércala a la comida para hacerla crecer, sobrevive cuanto más puedas. 
+          Cuando estés listo dale clic al botón de play.
+        </p>
+        <div class="intro-btns">
+          <p class="intro-title-2">Botones:</p>
+          <div><ion-icon name="caret-up-outline"></ion-icon><p class="intro-body-2">Mover hacía arriba</p></div>
+          <div><ion-icon name="caret-down-outline"></ion-icon><p class="intro-body-2">Mover hacía abajo</p></div> 
+          <div><ion-icon name="caret-forward-outline"></ion-icon><p class="intro-body-2">Mover hacía la derecha</p></div> 
+          <div><ion-icon name="caret-back-outline"></ion-icon><p class="intro-body-2">Mover hacía la izquierda</p></div>
+        </div>
+        <img class="ins-img-1" src="./images/snake/instruction.gif"/>
+        <button id="play-game-btn" class="play-btn">Play</button>
+      </div>
+      <audio id="audio-background" preload="auto" loop>
+        <source src="./music/snake/The-Sound-Of-Rain.mp3" type="audio/mpeg"/>
+        failed
+      </audio>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+      <script type="module" src="./JS/snake/main.js"></script>
+  </body>
+</html>

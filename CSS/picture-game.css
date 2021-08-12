@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+}
+#body{
+    display: none;
+    position: fixed;
+    height: 625px !important;
+    width: 100% !important;
+    background: rgb(145,52,244);
+    background: linear-gradient(95deg, rgba(145,52,244,1) 13%, rgba(165,35,245,1) 36%, rgba(199,24,246,1) 65%, rgba(191,140,246,1) 88%);
+}
+div.cropped{
+    cursor: pointer;
+}
+#cropped-image-none{
+    display: none;
+}
+#cropped-image{
+    display: block;
+    position: relative !important;
+    width: 500px;
+    height: 300px;
+    top: 99px;
+    left: 361px;
+    /* border: 1px solid blue; */
+}
+#body *{
+    position: absolute;
+}
+div#body img{
+    width: 503px;
+    height: 300px;
+    top: 101px;
+    left: 360px;
+    border: 2px solid #36026c;
+}
+div.cropped{
+    border: 2px solid #36026c;
+}
+div.n1{
+    width: 100px;
+    height: 100px;
+}
+img.n1{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    clip: rect(0px, 100px, 100px, 0px);
+}
+div.n2{
+    position: absolute !important;
+    left: 102px;
+    width: 100px;
+    height: 100px;
+}
+img.n2{
+    position: absolute !important;
+    top: 0 !important;
+    left: -100px !important;
+    clip: rect(0px, 200px, 100px, 100px);
+}
+div.n3{
+    position: absolute !important;
+    left: 202px;
+    width: 100px;
+    height: 100px;
+}
+img.n3{
+    position: absolute !important;
+    top: 0 !important;
+    left: -200px !important;
+    clip: rect(0px, 300px, 100px, 200px);
+}
+div.n4{
+    position: absolute !important;
+    left: 302px;
+    width: 100px;
+    height: 100px;
+}
+img.n4{
+    position: absolute !important;
+    top: 0 !important;
+    left: -300px !important;
+    clip: rect(0px, 400px, 100px, 300px);
+}
+div.n5{
+    position: absolute !important;
+    left: 402px;
+    width: 100px;
+    height: 100px;
+}
+img.n5{
+    position: absolute !important;
+    top: 0 !important;
+    left: -400px !important;
+    clip: rect(0px, 500.5px, 100px, 400px);
+}
+div.n6{
+    position: absolute !important;
+    top: 102px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+img.n6{
+    position: absolute !important;
+    top: -100px !important;
+    left: 0px !important;
+    clip: rect(100px, 100px, 200px, 0px);
+}
+div.n7{
+    position: absolute !important;
+    top: 102px;
+    left: 102px;
+    width: 100px;
+    height: 100px;
+}
+img.n7{
+    position: absolute !important;
+    top: -100px !important;
+    left: -100px !important;
+    clip: rect(100px, 200px, 200px, 100px);
+}
+div.n8{
+    position: absolute !important;
+    top: 102px;
+    left: 202px;
+    width: 100px;
+    height: 100px;
+}
+img.n8{
+    position: absolute !important;
+    top: -100px !important;
+    left: -200px !important;
+    clip: rect(100px, 300px, 200px, 200px);
+}
+div.n9{
+    position: absolute !important;
+    top: 102px;
+    left: 302px;
+    width: 100px;
+    height: 100px;
+}
+img.n9{
+    position: absolute !important;
+    top: -100px !important;
+    left: -300px !important;
+    clip: rect(100px, 400px, 200px, 300px);
+}
+div.n10{
+    position: absolute !important;
+    top: 102px;
+    left: 402px;
+    width: 100px;
+    height: 100px;
+}
+img.n10{
+    position: absolute !important;
+    top: -100px !important;
+    left: -400px !important;
+    clip: rect(100px, 500px, 200px, 400px);
+}
+div.n11{
+    position: absolute !important;
+    top: 202px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+}
+img.n11{
+    position: absolute !important;
+    top: -200px !important;
+    left: 0px !important;
+    clip: rect(200px, 100px, 300px, 0px);
+}
+div.n12{
+    position: absolute !important;
+    top: 202px;
+    left: 102px;
+    width: 100px;
+    height: 100px;
+}
+img.n12{
+    position: absolute !important;
+    top: -200px !important;
+    left: -100px !important;
+    clip: rect(200px, 200px, 300px, 100px);
+}
+div.n13{
+    position: absolute !important;
+    top: 202px;
+    left: 202px;
+    width: 100px;
+    height: 100px;
+}
+img.n13{
+    position: absolute !important;
+    top: -200px !important;
+    left: -200px !important;
+    clip: rect(200px, 300px, 300px, 200px);
+}
+div.n14{
+    position: absolute !important;
+    top: 202px;
+    left: 302px;
+    width: 100px;
+    height: 100px;
+}
+img.n14{
+    position: absolute !important;
+    top: -200px !important;
+    left: -300px !important;
+    clip: rect(200px, 400px, 300px, 300px);
+}
+div.n15{
+    position: absolute !important;
+    top: 202px;
+    left: 402px;
+    width: 100px;
+    height: 100px;
+}
+img.n15{
+    position: absolute !important;
+    top: -200px !important;
+    left: -400px !important;
+    clip: rect(200px, 500px, 300px, 400px);
+}
+#menu{
+    position: absolute !important;
+    top: 404px;
+    left: 360px;
+    width: 504px;
+    height: 100px;
+    background-color: #aa8cf6 !important;
+    border: 1px solid #36026c !important;
+}
+#menu pre{
+    position: absolute !important;
+    color: #36026c;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 12px;
+    left: -34px !important;
+}
+p.textMenu2{
+    position: absolute !important;
+    color: #36026c;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40px;
+    left: 50px !important;
+}
+#menu button{
+    position: absolute !important;
+    padding: 5px 30px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #c718f6;
+    color: #36026c;
+    border: 2px solid #36026c;
+    cursor: pointer;
+    top: 62px;
+    left: 140px !important;
+}
+#menu button:hover{
+    background-color: #a523f5;
+}
+div#menu img.n1{
+    position: absolute !important;
+    top: 0 !important;
+    left: 404px !important;
+}
+div#menu img.n2{
+    position: absolute !important;
+    top: 0 !important;
+    left: 304px !important;
+}
+div#menu img.n3{
+    position: absolute !important;
+    top: 0 !important;
+    left: 204px !important;
+}
+div#menu img.n4{
+    position: absolute !important;
+    top: 0 !important;
+    left: 104px !important;
+}
+div#menu img.n5{
+    position: absolute !important;
+    top: 0 !important;
+    left: 4px !important;
+}
+div#menu img.n6{
+    position: absolute !important;
+    top: -100px !important;
+    left: 404px !important;
+}
+div#menu img.n7{
+    position: absolute !important;
+    top: -100px !important;
+    left: 304px !important;
+}
+div#menu img.n8{
+    position: absolute !important;
+    top: -100px !important;
+    left: 204px !important;
+}
+div#menu img.n9{
+    position: absolute !important;
+    top: -100px !important;
+    left: 104px !important;
+}
+div#menu img.n10{
+    position: absolute !important;
+    top: -100px !important;
+    left: 4px !important;
+}
+div#menu img.n11{
+    position: absolute !important;
+    top: -200px !important;
+    left: 404px !important;
+}
+div#menu img.n12{
+    position: absolute !important;
+    top: -200px !important;
+    left: 304px !important;
+}
+div#menu img.n13{
+    position: absolute !important;
+    top: -200px !important;
+    left: 204px !important;
+}
+div#menu img.n14{
+    position: absolute !important;
+    top: -200px !important;
+    left: 104px !important;
+}
+div#menu img.n15{
+    position: absolute !important;
+    top: -200px !important;
+    left: 4px !important;
+}
+div#ending{
+    background: rgb(45,215,240);
+    background: radial-gradient(circle, rgba(45,215,240,1) 13%, rgba(35,223,245,1) 36%, rgba(24,246,236,1) 65%, rgba(140,246,227,1) 88%);
+    border-radius: 30px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+pre.ending{
+    font-family: fantasy;
+    color: whitesmoke;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    font-size: 30px;
+    text-shadow: 0 0 15px darkblue;
+}
+#restart{
+    position: absolute;
+    top: 350px;
+    left: 246px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 15px darkblue;
+    color: whitesmoke;
+    background-color: #2d86f0;
+    border: 7px groove #2d41f0;
+    cursor: pointer;
+}
+#restart:hover{
+    background-color: #929dfc;
+    transform: translate(3px, -3px);
+    transition: 1s;
+}
+/*Instructions*/
+img.intro-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -12;
+}
+div.intro-screen{
+    position: absolute;
+    background-color: #0055ffbd;
+    border-radius: 30px;
+    width: 50%;
+    height: 510px;
+    color:white;
+    top: 8%;
+    left: 25%;
+}
+div.intro-screen p.intro-title{
+    position: absolute;
+    color: #FF1919;
+    text-shadow: 0 0 15px black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    left: 0%;
+}
+div.intro-screen p.intro-body{
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 0 0 15px black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 91%;
+    top: 15%;
+    left: 4.5%;
+}
+img.ins-img-1{
+    position: absolute;
+    width: 345px;
+    height: 200px;
+    border-radius: 20px;
+    top: 41%;
+    left: 25%;
+}
+button.play-btn{
+    position: absolute;
+    padding: 10px 60px;
+    top: 84%;
+    left: 36.5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    color: whitesmoke;
+    background-color: #3333FF;
+    border: 10px groove #0000B3;
+    outline: none;
+    cursor: pointer;
+}
+button.play-btn:hover{
+    background-color: #4D88FF;
+    transition: 0.5s;
+}
+a.exit-btn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #3333FF;
+    border: 10px groove #0000B3;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 7%;
+    cursor: pointer;
+}
+a.exit-btn:hover{
+    background-color: #4D88FF;
+    transition: 0.5s;
+}

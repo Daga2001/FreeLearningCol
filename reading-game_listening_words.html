@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listening words</title>
+    <link href="./CSS/listening-words.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+  </head>
+  <body>
+    <div id="body">
+      <h1 id="score">score</h1>
+      <div><h1 id="title">Cuál palabra escuchas?</h1></div>
+      <div id='audioBody'><audio id="audioContainer" controls>
+        <source id="audio"/>
+        Your browser doesn't support the audio.
+      </audio></div>
+      <div class="buttons">
+        <button class="btn">answer1</button>
+        <button class="btn">answer2</button>
+        <button class="btn">answer3</button>
+        <button class="btn">answer4</button>
+      </div>
+    </div>
+    <!-- intructions -->
+    <a href="./reading-games.html" id="exit" class="exit-btn">Salir</a>
+    <img id="background" class= "intro-background" src="./images/listening-words/listening-background.jpg" />
+      <div id="instructions" class="intro-screen">
+        <p class="intro-title">Instrucciones</p>
+        <p class="intro-body">
+          Escucha las palabras y da clic en el cuadro que contenga la palabra que escuchaste, si necesitas volver a escucharla 
+          presiona el botón del reproductor de sonido. Cuando estés listo dale clic al botón de play.
+        </p>
+        <img class="ins-img-1" src="./images/listening-words/instruction.gif">
+        <button id="play-game-btn" class="play-btn">Play</button>
+      </div>
+    <audio id="audio-background" preload="auto" loop>
+      <source src="./music/listening-words/humorous-and-comic.mp3" type="audio/mpeg"/>
+      failed
+    </audio>
+    <script src="./JS/listening-words/main.js" ></script>
+  </body>
+</html>

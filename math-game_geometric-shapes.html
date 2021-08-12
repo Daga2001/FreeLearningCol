@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>geometric shapes</title>
+    <link href="./CSS/geometric-shapes.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+  </head>
+  <body>
+      <canvas id='myCanvas' width="400" height="400"></canvas>
+      <a href="./math-games.html" id="exit" class="exit-btn">Salir</a>
+      <img id="background" class= "intro-background" src="./images/geometric-shapes/geometric-background.png" />
+      <div id="instructions" class="intro-screen">
+        <p class="intro-title">Instrucciones</p>
+        <p class="intro-body">
+          Forma las palabras en el orden correcto arrastrando los cuadros que contienen letras a los espacios 
+          vacíos, puedes guiarte por las imágenes que aparecen en pantalla. Cuando estés listo dale clic al botón de play.
+        </p>
+        <img class="ins-img-1" src="./images/geometric-shapes/instruction.gif"/>
+        <button id="play-game-btn" class="play-btn">Play</button>
+      </div>
+      <audio id="audio-background" preload="auto" loop>
+        <source src="./music/geometric-shapes/humorous-and-comic.mp3" type="audio/mpeg"/>
+        failed
+      </audio>
+      <script type="text/javascript" src="./JS/geometric-shapes/main.js"></script>
+  </body>
+</html>

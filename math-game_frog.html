@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frog</title>
+    <link href="./CSS/frog.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+  </head>
+  <body>
+      <canvas width="400" height="400"></canvas>
+      <a href="./math-games.html" id="exit" class="exit-btn">Salir</a>
+      <div id='body'>
+        <img id='frog' src='./images/frog/frog.gif' />
+        <img id='lake' src="./images/frog/lake.jpg" />
+      </div>
+      <img id="background" class= "intro-background" src="./images/frog/frog-background.jpg" />
+      <div id="instructions" class="intro-screen">
+        <p class="intro-title">Instrucciones</p>
+        <p class="intro-body">
+          Arrastra el resultado correcto del problema que saldrá en pantalla al espacio vacío, aprende a sumar, restar, multiplicar y 
+          dividir para que Jelly pase el lago. Cuando estés listo dale clic al botón de play.
+        </p>
+        <img class="ins-img-1" src="./images/frog/instruction.gif">
+        <button id="play-game-btn" class="play-btn">Play</button>
+      </div>
+      <audio id="audio" preload="auto" loop>
+        <source src="./music/frog/happy-media-music-opener.mp3" type="audio/mpeg"/>
+        failed
+      </audio>
+      <script type="text/javascript" src="./JS/frog/main.js"></script>
+  </body>
+</html>

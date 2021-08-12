@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Game</title>
+    <link rel="stylesheet" href="./CSS/picture-game.css" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="shortcut icon" href="./images/logo-icon.png" />
+</head>
+<body>
+    <div id='body'>
+        <img id="image" class="frame" src="./images/picture-game/img1.png" />
+        <div id="cropped-image-none" class="proof">
+            <div class='cropped n1'><img class="frame n1" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n2'><img class="frame n2" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n3'><img class="frame n3" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n4'><img class="frame n4" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n5'><img class="frame n5" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n6'><img class="frame n6" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n7'><img class="frame n7" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n8'><img class="frame n8" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n9'><img class="frame n9" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n10'><img class="frame n10" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n11'><img class="frame n11" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n12'><img class="frame n12" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n13'><img class="frame n13" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n14'><img class="frame n14" src="./images/picture-game/img1.png" /></div>
+            <div class='cropped n15'><img class="frame n15" src="./images/picture-game/img1.png" /></div>
+        </div>
+        <div id="menu">
+            <pre id="textMenu">
+                presta atención a cada detalle de la imagen, 
+                cuando estés listo presiona el botón "play".
+            </pre>
+            <button id="play">play</button>
+            <img id="model" class="n15" src="./images/picture-game/img1.png" />
+        </div>
+    </div>
+    <a href="./memory-games.html" id="exit" class="exit-btn">Salir</a>
+    <img id="background" class= "intro-background" src="./images/picture-game/picture-background.jpg" />
+      <div id="instructions" class="intro-screen">
+        <p class="intro-title">Instrucciones</p>
+        <p class="intro-body">
+          Memoriza cada parte de la imagen, luego da clic al botón de play de la parte inferior y encuentra 
+          la foto que corresponda con la que aparezca en pantalla. Cuando estés listo dale clic al botón de play.
+        </p>
+        <img class="ins-img-1" src="./images/picture-game/instruction.gif"/>
+        <button id="play-game-btn" class="play-btn">Play</button>
+      </div>
+    <audio id="audio-background" preload="auto" loop>
+        <source src="./music/picture-game/modular-ambient-04-792.mp3" type="audio/mpeg"/>
+        failed
+      </audio>
+    <script src="./JS/picture-game/main.js"></script>
+</body>
+</html>
