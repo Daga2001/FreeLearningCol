@@ -320,16 +320,12 @@ document.body.addEventListener('keydown', ( event ) => {
     if( event.key == 'ArrowRight' && !overLapsWithABlock( { x: world.snake.body[0].x + size, y: world.snake.body[0].y } ) && world.snake.dir != 'left' ){
         world.snake.dir = 'right';
     }
-    //console.log(event.key);
     
 })
 
 document.body.addEventListener('mousedown', (event) => {
-    console.log('1')
     if(theEnd){
-        console.log('2')
         if(cursorOverLapsRect( restartButton, event )){
-            console.log('3')
             restart();
         }
     }

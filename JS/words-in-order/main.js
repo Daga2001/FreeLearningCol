@@ -490,7 +490,6 @@ function drawRect( rect, fill, stroke ){
 		let wordsHeight = heightOfWords();
 		let groupHeight = wordsHeight + ( spaceBtwLines * howManyBreaks );
 		let actualheight =  rect.height - groupHeight;
-		console.log(actualheight)
 
 		for( i in lines ){
 			
